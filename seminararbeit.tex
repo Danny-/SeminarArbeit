@@ -44,8 +44,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Titel, Autor, Seminar, Semester, Dozent %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\mytitle}{Template für eine Seminararbeit}
-\newcommand{\myauthor}{Jannik Strötgen}
+\newcommand{\mytitle}{Coreference of Named Entities}
+\newcommand{\myauthor}{Philipp Schäfer, Daniel Kruck}
 \newcommand{\myseminar}{Text Mining}
 \newcommand{\mysemester}{Sommersemester 2010}
 \newcommand{\mydozent}{Jannik Strötgen}
@@ -88,9 +88,9 @@ Dozenten: \mydozent\\
 % Persönliche Angaben
 \begin{tabular}[l]{ll}
 Name:           & \myauthor\\
-Matrikelnummer: & 1234567\\
-Studiengang:    & Informatik (1. Fachsemester)\\
-Email: & stroetgen@uni-hd.de\\
+Matrikelnummer: & 2612579 (Philipp), 2440234 (Daniel)\\
+Studiengang:    & Angewandte Informatik (6. Semester)\\
+Email: & trashzopf@googlemail.com (Philipp), daniel.kruck@gmx.net (Daniel)\\
 Datum der Abgabe: & \today \\
 \end{tabular}
 
@@ -139,195 +139,7 @@ Heidelberg, den \today \hspace{2cm} \underline{\phantom{Platz für die Unterschr
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% <Hauptteil der Arbeit> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagenumbering{arabic}
-\section{Einleitung}\label{sec:einleitung}
-Dieses Dokument dient allen Teilnehmern des Seminars ``Text Mining'' als Vorlage zur Anfertigung Ihrer Hausarbeiten. In der Einleitung befindet sich normalerweise eine Hinführung zum Thema und eine Erläuterung der Problemstellung. Dabei ist es wichtig, dass in der Einleitung deutlich gemacht wird, was in den folgenden Kapiteln zu erwarten ist. In Ihrer Einleitung sollte außerdem bereits dargestellt werden, welche Ergebnisse Sie im Verlauf der Arbeit erzielt haben. In dieser Vorlage beispielsweise wird erläutert, wie Sie Tabellen oder Bilder verwenden können, und (ganz besonders wichtig!), wie Sie richtig zitieren. Und das Ergebnis dieser Vorlage ist hoffentlich, dass am Ende des Seminares Hausarbeiten abgegeben werden, die allen formalen Anforderungen entsprechen. 
-
-Allerdings handelt es sich bei diesem Template um ein \emph{Starter Template}, d.h. es ist weder vollständig noch fehlerfrei (davon gehe ich zumindest aus). Eventuelle Fehler in Ihren Hausarbeiten dürfen nicht begründet werden mit:
-\begin{quotation}
-In dem Template von der Kursseite war das aber auch so.
-\end{quotation}
-
-Es steht natürlich allen Teilnehmern frei dieses Template zu verwenden oder auch anzupassen. Selbstverständlich können Sie Änderungen vornehmen, um Verbesserungen zu erreichen. Sollten Ihnen irgendwelche Fehler auffallen, wäre ich Ihnen dankbar, wenn Sie diese nicht für sich behalten, sondern per Mail an mich schicken. Vielen Dank hierfür.
-
-Am Ende der Einleitung sollten Sie beschreiben, wie der Rest der Arbeit aufgebaut ist:
-
-Die Arbeit ist folgendermaßen strukturiert: Zunächst folgen in Kapitel~\ref{sec:template} einige Informationen zu dem Template.
-Danach werden in Kapitel~\ref{sec:kapitel} einige Anmerkungen gemacht, wie die einzelnen Kapitel einer Seminararbeit aufgebaut werden sollen, bevor in Kapitel~\ref{sec:tabellenundbilder} ein paar Kleinigkeiten zu Tabellen und Bildern erläutert werden. 
-Abschließend wird in Kapitel~\ref{sec:literatur} erläutert, wie Sie richtig referenzieren.
-Im Vergleich zu Ihrer Arbeit enthält dieses Template keine Zusammenfassung, was natürlich nicht gut ist.
-
-\section{Allgemeine Informationen zum Template}\label{sec:template}
-In diesem Template wird davon ausgegangen, dass Sie bereits \LaTeX verwendet haben: Insbesondere wird nicht erklärt, wie ein Dokument kompiliert wird usw. Sollten Sie noch nie \LaTeX benutzt haben, sollten Sie davor eine Suchmaschine Ihrer Wahl nach einem ``\LaTeX Tutorial'' fragen oder sich ein \LaTeX Büchlein in der Bibliothek ausleihen und dieses dann ein bisschen durcharbeiten.
-
-Das Template besteht aus fünf Dateien, wovon sich eine in einem Unterordner befindet.
-\begin{itemize}
-\item seminararbeit.tex (\LaTeX Quelldatei)
-\item seminararbeit.pdf (pdf der kompilierten \LaTeX Quelldatei)
-\item seminararbeit.bib (\BibTeX Quelldatei)
-\item plainnat-d.bst (Stylefile für die Bibliographie)
-\item pics/stopp\_bild.png
-\end{itemize}
-
-In der \LaTeX Quelldatei können Sie als allererstes die persönlichen Angaben ändern. Diese befinden sich in der Quelldatei relativ weit oben und beinhaltet folgende Zeilen:
-
-\begin{verbatim}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Titel, Autor, Seminar, Semester, Dozent %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\mytitle}{Template für eine Seminararbeit}
-\newcommand{\myauthor}{Jannik Strötgen}
-\newcommand{\myseminar}{Text Mining}
-\newcommand{\mysemester}{Sommersemester 2010}
-\newcommand{\mydozent}{Jannik Strötgen}
-\newcommand{\mydozentTwo}{Prof. Dr. Michael Gertz}
-\end{verbatim}
-
-Sobald Sie diese Definitionen angepasst haben, verändert sich bereits die Titelseite und die Antiplagiatserklärung.
-
-
-\section{Kapitel}\label{sec:kapitel}
-Bevor in diesem Kapitel beschrieben wird, wie die Kapitel und Unterkapitel aufgebaut sein sollen, wird in Abschnitt~\ref{subsec:titelblatt} beschrieben, welche Informationen auf dem Titelblatt zu finden sein sollen. In Abschnitt~\ref{subsec:antiplag} folgt die Beschreibung der Antiplagiatserklärung und in Abschnitt~\ref{subsec:inhaltsverzeichnis} wird beschrieben, wie das Inhaltsverzeichnis entstanden ist.
-
-\subsection{Titelblatt}\label{subsec:titelblatt}
-Auf dem Titelblatt befinden sich folgende Informationen, die sich in drei Bereiche gliedern lassen( Kopf, Körper und Fuß). Im Kopfbereich sollen folgende Informationen zu finden sein:
-
-\begin{itemize}
-\item Name der Universität
-\item Name des Instituts
-\item Semester
-\item Name des Seminars
-\item Name des Dozenten
-\end{itemize}
-
-Im Körperbereich des Titelblatts müssen Sie folgende Angaben machen:
-\begin{itemize}
-\item Art der Hausarbeit
-\item Titel der Hausarbeit
-\end{itemize}
-
-Im untersten Teil, sollen die notwendigen persönlichen Informationen des Autors zu finden sein. Diese sind:
-\begin{itemize}
-\item Name des Autors
-\item Matrikelnummer
-\item Studiengang mit Fachsemesterzahl
-\item Ihre Emailadresse
-\item Datum der Abgabe
-\end{itemize}
-
-
-\subsection{Antiplagiatserklärung}\label{subsec:antiplag}
-Nach dem Titelblatt folgt zunächst eine Antiplagiatserklärung. Diese enthält den Text
-
-\begin{quotation}
-Hiermit versichere ich \textbf{[Name des Autors]}, dass ich die Hausarbeit mit dem Titel \textbf{[Titel der Arbeit]}
-im Seminar \textbf{[Name des Seminars]}
-im \textbf{[Name des Semesters]}
-bei \textbf{[Name des Dozenten oder der Dozentin]}
-selbstständig und nur mit den in der Arbeit angegebenen Hilfsmitteln verfasst habe.
-Zitate sowie der Gebrauch fremder Quellen, Texte und Hilfsmittel habe ich nach den
-Regeln wissenschaftlicher Praxis eindeutig gekennzeichnet. Mir ist bewusst, dass ich
-fremde Texte und Textpassagen nicht als meine eigenen ausgeben darf und dass ein
-Verstoß gegen diese Grundregel des wissenschaftlichen Arbeitens als Täuschungs- und
-Betrugsversuch gilt, der entsprechende Konsequenzen nach sich zieht. Diese bestehen
-in der Bewertung der Prüfungsleistung mit "nicht ausreichend" (5,0) sowie ggf. weiteren
-Maßnahmen.
-
-Außerdem bestätige ich, dass diese Arbeit in gleicher oder ähnlicher Form noch in keinem anderen Seminar vorgelegt wurde.
-\end{quotation}
-
-Zusätzlich wird diese Seite mit Datum und Platz für die Unterschrift versehen. Die Antiplagiatserklärung steht auf einer eigenen Seite. Damit das so auch wirklich geschieht, wurde in diesem Template der Befehl \begin{verbatim*}\newpage\end{verbatim*} verwendet. Außerdem soll auf dieser Seite keine Kopfzeile stehen. Deshalb wurde der Befehl \begin{verbatim*}\thispagestyle{empty}\end{verbatim*} verwendet.
-
-
-\subsection{Inhaltsverzeichnis}\label{subsec:inhaltsverzeichnis}
-Das Inhaltsverzeichnis kann mit dem Befehl
-\begin{verbatim*}\tableofcontents\end{verbatim*}
-erstellt werden. Dabei werden alle Überschriften eingefügt, zusammen mit der Seitennummer der Seite, auf der das entsprechende Kapitel beginnt.
-
-
-\subsection{Kapiteltiefe}
-Im Allgemeinen soll sich die Gliederung auf drei Ebenen beschränken. Kapitelüberschriften, Abschnitts- und Zwischenüberschriften. Diese werden nach
-dem Schema „1; 1.1; 1.2; 1.2.1; 1.2.2“ usw. durchnummeriert. Hierfür dienen in diesem Template folgende Befehle:
-\begin{itemize}
-\item \begin{verbatim*}\section{Kapitel}\end{verbatim*}
-\item \begin{verbatim*}\subsection{Abschnitt}\end{verbatim*}
-\item \begin{verbatim*}\subsubsection{Unterabschnitt}\end{verbatim*}
-\end{itemize}
-
-
-\section{Tabellen und Bilder}\label{sec:tabellenundbilder}
-In diesem Kapitel wird beschrieben, wie Kapitel und Bilder eingefügt werden können. Wichtg ist hierbei, dass alle Bilder und Tabellen, die Sie eingefügt haben, eine Unterschrift haben und im Text referenziert werden. Dies funktioniert indem sie jeder Tabelle eine \begin{verbatim}\caption{Ich bin eine Überschrift}\end{verbatim} und ein \begin{verbatim}\label{tab:beispieltabelle}\end{verbatim} zuordnen. Im Text können Sie dann mit dem Befehl \begin{verbatim}\ref{tab:beispieltabelle}\end{verbatim} auf die Nummer der Tabelle oder des Bildes zugreifen. Genauso greifen Sie übrigens auch auf die Kapitelnummern zu, wie Sie vielleicht bereits gemerkt haben.
-Also etwa so: In Kapitel~\ref{subsec:tabelle} wird die Tabelle~\ref{tab:tabelle} gezeigt.
-
-
-\subsection{Tabellen}\label{subsec:tabelle}
-Manche Inhalte lassen sich sehr gut in einer Tabelle darstellen. Unnötige Informationen sind dagegen in Tabelle~\ref{tab:tabelle} dargestellt. Dafür wird die Tabelle im Text referenziert. Ist die Referenz nicht auf der gleichen Seite wie die Tabelle, kann mit dem Befehl \begin{verbatim}\pageref{tab:tabelle}\end{verbatim} auch noch die Seitenzahl angegeben werden, auf der sich die Tabelle befindet. Also in etwa so:
-Auf Seite~\pageref{tab:tabelle} wird die Tabelle~\ref{tab:tabelle} gezeigt.
-
-\begin{table}
-\centering
-\begin{tabular}{ll}
-\hline
-Erste Zeile; erste Spalte  & erste Zeile; zweite Spalte  \\
-\hline
-Zweite Zeile; erste Spalte & zweite Zeile; zweite Spalte \\
-\hline
-\end{tabular}
-\caption{So sieht eine Tabelle aus.}
-\label{tab:tabelle}
-\end{table}
-
-
-\subsection{Bilder}\label{subsec:bilder}
-Dieses Kapitel dient ausschließlich dem Zweck, dass Sie sehen, wie sie eine Abbildung in ein \LaTeX Dokument einfügen können. Dafür dient die Abbildung~\ref{fig:figure} auf Seite~\pageref{fig:figure}.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.5\textwidth]{pics/stopp_bild}
-\caption{Auch bei Bildern müssen Sie die Quelle angeben, wenn Sie sie nicht selbst erstellt haben (Quelle: http://www.chip.de/news/Endspurt-Letzter-Tag-der-Netzsperren-Petition\_36913882.html). }
-\label{fig:figure}
-\end{figure}
-
-
-\section{Literaturliste}\label{sec:literatur}
-Wie sie bereits erfahren haben, soll Ihre Hausarbeit wissenschaftlichen Ansprüchen genügen. Dabei ist es besonders wichtig, dass Sie auch richtig und angemessen zitieren und referenzieren. Dass Sie dies tun, bestätigen Sie übrigens in Ihrer Antiplagiatserklärung.
-
-Es gibt verschiedene Arten von wissenschaftlichen Artikeln, die Sie zitieren können. Bücher, wissenschaftliche Aufsätze aus Zeitschriften oder auch wissenschaftliche Artikel von Konferenzen, die nach Stattfinden der Konferenz veröffentlicht werden, in sogenannten \emph{Proceedings} einer Konferenz. Da es sich um verschiedene wissenschaftliche Artikel handelt, werden auch alle etwas unterschiedlich behandelt. Wichtig ist auch, dass es Artikel mit einem, zwei oder mehreren Autoren gibt, was auch Auswirkungen hat. Da es sich bei dem vorliegenden Dokument jedoch lediglich um ein Starter Template handelt, können hier nicht alle Einzelheiten beschrieben werden.
-
-Für Ihre Referenzen sollten Sie ein separates File anlegen. Sinnvoll ist oft auch Programme zu verwenden, mit denen man seine Bibliographie verwalten kann, z.B. JabRef\footnote{\url{http://jabref.sourceforge.net/}}. Bei dieser Gelegenheit haben wir auch gleich noch einmal Fußnoten kennengelernt. Und zusätzlich den Befehl:
-\begin{verbatim}\url{http://www.addresse.com}\end{verbatim}
-
-\subsection{Bibliography Style}
-In \LaTeX besteht die Möglichkeit, verschiedene Styles zu verwenden, um auf die Bibliography zuzugreifen. In dem Paket dieses Templates ist ein angepasstes \textbf{natbib}  File enthalten, das ein paar Anpassungen für die deutsche Sprache beinhaltet, sonst aber alle tollen Funktionen von natbib unterstützt. Zum Beispiel können damit auf die Autoren von bibliographischen Einträgen zugegriffen werden. Alle möglichen Funktionen sind auf der Webseite von natbib beschrieben\footnote{\url{http://merkel.zoneo.net/Latex/natbib.php}}.
-
-Um das angepasste natbib File benutzen zu können, mussten in diesem Template folgende Sachen gemacht werden:
-\begin{enumerate}
-\item \begin{verbatim}\usepackage[numbers]{natbib}\end{verbatim}
-\item \begin{verbatim}\bibliographystyle{plainnat-d}\end{verbatim} 
-\item Das File in dem die Literatur steht muss geladen werden: \begin{verbatim}\bibliography{seminararbeit}\end{verbatim}
-\end{enumerate}
-
-
-\subsection{Arten von Literatur}
-In diesem Kapitel werden einige Arten von Literatur vorgestellt. In der Literaturliste kann betrachtet werden, wie die verschiedenen Arten referenziert werden sollen.
-
-\subsubsection{Book}
-In diesem Kapitel wird ein Buch (book) zitiert. Wenn Sie sich bereits auf das Seminar vorbereitet haben, kennen Sie dieses Buch vielleicht schon.
-Bei Zitaten muss kenntlich gemacht werden, dass es sich um ein Zitat handelt. Dafür wird das Zitat in Anführungszeichen gestellt. Zitate müssen wörtlich übernommen werden, dürfen weder gekürzt, noch geändert werden, ohne dass dies mit eckigen Klammern deutlich gemacht wird. Sehen wir uns nun ein Beispiel an, in dem der Unterschied zwischen Text Mining und Data Mining erklärt wird. Text Mining ist ähnlich zu Data Mining, denn ``analogous to data mining, text mining seeks to extract useful information''~\cite[S.1]{FeldmanSanger2007}. Bitte geben Sie vor allem bei Büchern immer auch die Seitenzahl an, wo sie das Zitat gefunden haben.
-
-Statt wörtlicher Zitate ist es auch möglich zu paraphrasieren, z.B. so: In \cite{FeldmanSanger2007} haben \citeauthor{FeldmanSanger2007} behauptet, dass Text Mining und Data Mining Ähnlichkeiten aufweisen.
-
-\subsubsection{Article}
-In diesem Kapitel wird auf ein System referenziert, das in einem wissenschaftlichen Artikel in einem Journal beschrieben wurde (article). Stellen Sie sich vor, wir schreiben etwas zu Ontologien und erzählen vorab, dass das schon andere gemacht haben. In etwa so:
-
-Die in dieser Arbeit beschriebene Ontologie wurde rein zufällig aufgebaut und ergibt keinerlei Sinn. Anders die Ontologie YAGO, die mithilfe der Resourcen Wikipedia und Wordnet aufgebaut wurde~\cite{SuchanekEtAl2008}.
-
-Auch bei solchen Publikationen können Sie direkt auf die Autoren zugreifen, also auf \citeauthor{SuchanekEtAl2008} in diesem Fall. Dies geschieht mit \begin{verbatim}\citeauthor{SuchanekEtAl2008}\end{verbatim}
-Dabei wird ein einzelner Autor direkt benannt, zwei Autoren als Autor1 und Autor2 und drei oder mehr Autorem als Autor1 et al.
-
-\subsubsection{Inproceedings}
-Ein drittes Beispiel für wissenschaftliche Publikationen sind Paper, die auf einer Konferenz eingereicht, angenommen, vorgestellt und anschließend in den Proceedings der Konferenz veröffentlicht wurden. Solche Artikel (sogenannte Inproceedings) haben eine etwas andere Darstellung in der Literaturliste.
-
-Named Entity Recognition ist ein wichtiges Thema und kann für viele verschiedene Dinge benutzt werden, z.B. für die Verbesserung von Suchanfragen, indem versucht wird, Named Entities in Suchanfragen zu erkennen~\cite{GuoEtAl2009}.
+\section{Einleitung}
 
 
 % References (Literaturverzeichnis):
