@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -7,5 +7,16 @@
 Guha, R. und A.~Garg.
 \newblock Disambiguating people in search.
 \newblock {\em In TAP: Building the Semantic Web}, 2003.
+
+\bibitem[Modified:~21:02(2010)]{wiki:peter_chen}
+Modified:~21:02, 21 May 2010~Nineball.
+\newblock Peter chen, 2010.
+
+\bibitem[Seung-Hoon~Na(2009)]{paper:Na}
+Seung-Hoon~Na, Hwee Tou~Ng.
+\newblock A 2-poisson model for probabilistic coreference of named entities for
+  improved text retrieval.
+\newblock {\em Annual ACM Conference on Research and Development in Information
+  Retrieval}, 2009.
 
 \end{thebibliography}
