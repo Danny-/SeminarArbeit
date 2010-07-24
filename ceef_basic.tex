@@ -1,0 +1,14 @@
+\subsection{Plausible Annahme über die Verteilung von Koreferenzen}
+%PDF-Features von latex nachlesen; wir bräuchten einen link auf die Einleitung - und zwar auf die fbox
+Die Häufigkeit von Eigennamen in Dokumenten ist schwer zu erfassen. Zählt man nur die \textit{named entites} selbst, erhält man die raw entity frequency:
+\[tf\left( e;d \right)=\sharp \text{(named entity)}\]
+Die raw entity frequency beachtet  noch keine zusätzlichen Koreferenzen auf das Objekt hinter dem gesuchten Eigennamen. Um später ein besseres Ranking ausführen zu können, möchten wir möglichst alle Referenzen erfassen. Also addieren wir die Häufigkeit der Koreferenzen zu unserer raw entity frequency:
+\[tf\left( e;d \right)\leq tf_{true}\left( e;d \right)=tf\left( e;d \right)+\underbrace{atf(e_Q;A,d)}_{Korefernzen}\]
+Theoretisch sind wir nun am Ziel. Praktisch ist es aber nicht so einfach, die Häufigkeit der Koreferenzen zu bestimmen. Mit Programmen, die Koreferenzen vollständig auflösen, geht ein überdimensionaler Berechnungsaufwand einher. Zudem sind diese Programme noch nicht besonders Präzise und ordnen weniger als 70\% der Koreferenzen richtig zu.\cite{paper:Na}
+\\
+Seung-Hoon Na und Hwee Tou Ng untersuchteni deswegen einen statistischen Ansatz zur Schätzung der Koreferenzen. Dafür nehmen sie folgendes an:
+\fbox{ 
+\begin{minipage}{12cm}
+	``Our key assumption is that the frequency of anaphoric expressions is distributed over named entities in a document according to the probabilities of whether the document is elite for the named entities.''\cite{paper:Na}
+\end{minipage}
+}\\
