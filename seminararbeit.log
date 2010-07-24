@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  20 JUL 2010 17:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  24 JUL 2010 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,7 +379,8 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \bslash@cnt=\count104
 \wrong@table=\toks18
 \c@CodelineNo=\count105
-) (./seminararbeit.aux)
+) (./seminararbeit.aux
+(./einleitung.tex.aux))
 \openout1 = `seminararbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -394,8 +395,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
-
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+ (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen117
@@ -425,35 +425,40 @@ Overfull \hbox (84.9172pt too wide) in paragraph at lines 89--96
 \tf@toc=\write3
 \openout3 = `seminararbeit.toc'.
 
- [2] <pics/overview.png, id=17, 714.67pt x 445.665pt>
+ [2] (./einleitung.tex <pics/overview.png, id=17, 714.67pt x 445.665pt>
 File: pics/overview.png Graphic file (type png)
- <use pics/overview.png>
-Underfull \hbox (badness 10000) in paragraph at lines 143--164
+
+<use pics/overview.png>
+Underfull \hbox (badness 10000) in paragraph at lines 5--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--164
+Underfull \hbox (badness 10000) in paragraph at lines 5--26
 
  []
 
-[1 <./pics/overview.png>] (./seminararbeit.bbl) [2] (./seminararbeit.aux) ) 
+) [1 <./pics/overview.png>] (./seminararbeit.bbl) [2] (./seminararbeit.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2432 strings out of 493848
- 28737 string characters out of 1152823
- 87946 words of memory out of 3000000
- 5689 multiletter control sequences out of 15000+50000
+ 2439 strings out of 493848
+ 28846 string characters out of 1152823
+ 88213 words of memory out of 3000000
+ 5690 multiletter control sequences out of 15000+50000
  13301 words of font info for 32 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 25i,13n,28p,369b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/us
-r/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/
-type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on seminararbeit.pdf (5 pages, 165305 bytes).
+ 25i,13n,28p,392b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
+
+Output written on seminararbeit.pdf (5 pages, 165264 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
