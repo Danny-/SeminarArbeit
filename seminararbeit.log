@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  26 JUL 2010 21:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  26 JUL 2010 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,7 +520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--10
 
  []
 
-) (./zs_svm.tex) (./zs_feedback.tex) (./zs_okapi.tex) [5] [6]
+) [5] (./zs_svm.tex) (./zs_feedback.tex) (./zs_okapi.tex) [6]
 (./seminararbeit.bbl) [7] (./seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
  3155 strings out of 493848
@@ -544,7 +544,7 @@ pe1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sfti1095.pfb>
-Output written on seminararbeit.pdf (10 pages, 274595 bytes).
+Output written on seminararbeit.pdf (10 pages, 274905 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
