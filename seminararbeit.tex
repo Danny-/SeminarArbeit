@@ -42,6 +42,7 @@
 \usepackage{doc}
 %amsmath
 \usepackage{amsmath}
+\usepackage{amsthm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Titel, Autor, Seminar, Semester, Dozent %
@@ -52,6 +53,24 @@
 \newcommand{\mysemester}{Sommersemester 2010}
 \newcommand{\mydozent}{Jannik Strötgen}
 \newcommand{\mydozentTwo}{Prof. Dr. Michael Gertz}
+
+
+
+\newtheoremstyle{custm}% name of the style to be used
+  {}% measure of space to leave above the theorem. E.g.: 3pt
+  {}% measure of space to leave below the theorem. E.g.: 3pt
+  {}% name of font to use in the body of the theorem
+  {0em}% measure of space to indent
+  {\bf }% name of head font
+  {}% punctuation between head and body
+  {0.5cm}% space after theorem head; " " = normal interword space
+  {}% Manually specify head
+
+\theoremstyle{custm}
+
+\newtheorem*{thm_defi}{Definition:}
+\newenvironment{defi} [1][]{\begin{thm_defi} {\underline{\textbf{#1}}\ \\}}{\end{thm_defi} }
+
 
 % OTHER SETTINGS:
 \setlength{\parindent}{0in}

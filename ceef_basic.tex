@@ -14,4 +14,6 @@ Seung-Hoon Na und Hwee Tou Ng untersuchten deswegen einen statistischen Ansatz z
 \end{minipage}
 }\\
 \\
-Ausgehend von dieser Annahme wird nun ein statistisches Modell erstellt, das in der Lage ist, die Häufigkeit von Eigennamen in Dokumenten zu schätzen.
+Ausgehend von dieser Annahme wird nun ein statistisches Modell erstellt, das in der Lage ist, die Häufigkeit von Eigennamen in Dokumenten zu schätzen. Dazu wird der Kontext vernachlässigt und die Anzahl der anaphorischen Ausdrücke mit einem Faktor multipliziert, der die Wahrscheinlichkeit eines Bezuges auf die gesuchte Named Entity abschätzt.
+\[ tf_{true} \left( e_Q ; d \right) \approx tf \left( e_Q ; d \right) + P\left( e_Q | A,d \right)tf\left( A;d \right) \]
+Im folgenden gilt es diesen Faktor $P\left( e_Q | A,d \right)$ zu bestimmen.

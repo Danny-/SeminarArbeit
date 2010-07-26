@@ -1,6 +1,18 @@
 \subsection{Eliteness}
-\fbox{
-\begin{minipage}{12cm}
-\textbf{Eliteness}: A document is elite for a term if the document is ``about'' the concept represented by the term \cite{paper:Robertson}.
-\end{minipage}
-}
+
+\begin{defi}
+	A document is \underline{elite} for a term if the document is ``about'' the concept represented by the term \cite{paper:Robertson}.
+\end{defi}
+
+
+Bei genauerer Begutachtung der Definition liegt die Annahme nahe, dass die Bezüge der anaphorischen Ausdrücke auf die Entitäten im Zusammenhang stehen, ob ein Dokument bezüglich dieser Entität „elite“ ist, oder nicht. Wir definieren uns also einen weiteren Faktor:
+
+\begin{defi}
+$P(\textbf{E}(e) = 1 | d)$ ist die Wahrscheinlichkeit, dass ein Dokument für eine Entität $e$ „elite“ ist.
+\end{defi}
+
+Jetzt können wir folgendes setzen:
+
+\[ P(e_Q | A,d) = \frac{P(\textbf{E}(e) = 1 | d)}{\sum_{e \in \varepsilon (A;d)} P(\textbf{E}(e) = 1 | d)} \]
+
+Wir machen also nichts anderes, als die Wahrscheinlichkeit der Eliteness des Dokumentes bezogen auf unsere gesuchte Entität in Relation mit den Wahrscheinlichkeiten der anderen Named Entities zu stellen.
