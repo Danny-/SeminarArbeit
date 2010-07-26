@@ -7,5 +7,8 @@ Nochmal: die grundlegende Annahme von Seung-Hoon Na und Hwee Tou Ng lautet:\\
 }\\
 \\
 Um diese Annahme in ein mathematisches Modell zu übersetzen, muss man die Wahrscheinlichkeit abschätzen, dass ein Dokument ``elite'' ist. Wir suchen also eine Formel für
-\[P\left( E\left( e \right)=1|d \right)=?\]
-
+\[P\left( E\left( e \right)=1|d \right)=\ ?\]
+Zunächst interessiert uns hierfür die Wahrscheinlichkeit, dass eine beliebige Entität tf-fach in einem Dokument vorkommt. Dafür wird ein 2-Poisson Mixture Modell herangezogen.
+\[P\left( tf \right)=\pi_e\frac{e^{-\lambda_e}\lambda_{e}^{ tf }}{tf!}+\left( 1-\pi_e \right)\frac{e^{-\mu_e} \mu_e^{tf}}{tf!}\]
+Der erste Term repräsentiert hierbei die Wahrscheinlichkeit des tf-fachen Auftretens der Entität in der Funktion als ``elite''-Eigennamen, der zweite Term steht für die Wahrscheinlichkeit des tf-fachen Auftretens der Entität als ``non-elite''-Eigennamen.
+\[P\left( tf \right)=\underbrace{\pi_e\frac{e^{-\lambda_e}\lambda_{e}^{ tf }}{tf!}}_{Wahrscheinlichkeitsanteil - elite} +\underbrace{\left( 1-\pi_e \right)\frac{e^{-\mu_e} \mu_e^{tf}}{tf!}}_{Wahrscheinlichkeitsanteil - nonelite}\]
