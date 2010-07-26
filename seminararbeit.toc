@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}CEEF}{2}
 \contentsline {subsection}{\numberline {2.1}Plausible Annahme \IeC {\"u}ber die Verteilung von Koreferenzen}{2}
 \contentsline {subsection}{\numberline {2.2}Formalisierung}{3}
-\contentsline {subsection}{\numberline {2.3}Eliteness}{3}
+\contentsline {subsection}{\numberline {2.3}Eliteness}{4}
 \contentsline {subsection}{\numberline {2.4}Poisson}{4}
-\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{4}
-\contentsline {subsection}{\numberline {3.1}Automatische Klassifzierung der named entities}{4}
-\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{4}
-\contentsline {subsection}{\numberline {3.3}Retrieval Method}{4}
+\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{5}
+\contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{5}
+\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{5}
+\contentsline {subsection}{\numberline {3.3}Retrieval Method}{5}
