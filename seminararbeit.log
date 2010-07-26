@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  26 JUL 2010 20:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  26 JUL 2010 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,13 +515,13 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 ) (./ceef_eliteness.tex
-[3]) (./ceef_poisson.tex
+[3] [4]) (./ceef_poisson.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--10
 
  []
 
-[4]) (./zs_svm.tex) (./zs_feedback.tex) (./zs_okapi.tex) [5]
-(./seminararbeit.bbl) [6] (./seminararbeit.aux) ) 
+) (./zs_svm.tex) (./zs_feedback.tex) (./zs_okapi.tex) [5] [6]
+(./seminararbeit.bbl) [7] (./seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
  3155 strings out of 493848
  37035 string characters out of 1152823
@@ -544,9 +544,9 @@ pe1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sfti1095.pfb>
-Output written on seminararbeit.pdf (9 pages, 272229 bytes).
+Output written on seminararbeit.pdf (10 pages, 274595 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

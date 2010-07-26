@@ -15,4 +15,14 @@ Jetzt können wir folgendes setzen:
 
 \[ P(e_Q | A,d) = \frac{P(\textbf{E}(e) = 1 | d)}{\sum_{e \in \varepsilon (A;d)} P(\textbf{E}(e) = 1 | d)} \]
 
-Wir machen also nichts anderes, als die Wahrscheinlichkeit der Eliteness des Dokumentes bezogen auf unsere gesuchte Entität in Relation mit den Wahrscheinlichkeiten der anderen Named Entities zu stellen.
+Wir machen also nichts anderes, als die Wahrscheinlichkeit der Eliteness des Dokumentes bezogen auf unsere gesuchte Entität in Relation mit den Wahrscheinlichkeiten der anderen Named Entities zu stellen.\\
+Jetzt vereinfachen wir die Formel noch ein wenig, indem wir zuerst alle non-query Entitäten nach der Wahrscheinlichkeit der Eliteness sortieren. Danach werden die $K$ non-query Entitäten mit der höchsten Wahrscheinlichkeit selektiert, sodass sich unsere Formel auf Folgendes beschränkt:
+
+\[ P(e_Q | A,d) \approx \frac{P(\textbf{E}(e) = 1 | d)}{P(\textbf{E}(e) = 1 | d) + \sum_{i=1}^{K} P(\textbf{E}(e_{n}^{(i)}) = 1 | d)} \]
+
+Nun suchen wir uns eine repräsentative non-query Entität heraus und setzen die Wahrscheinlichkeit der Eliteness aller anderen $K$ Entitäten mit der Wahrscheinlichkeit der Herausgesuchten gleich. Somit erhalten wir eine stark vereinfachte, aber trotzdem recht genaue Alternative der obigen Formel.
+
+\[ P(e_Q | A,d) \approx \frac{P(\textbf{E}(e) = 1 | d)}{P(\textbf{E}(e) = 1 | d) + K \cdot P(\textbf{E}(e_N) = 1 | d)} \]
+
+Im Folgenden werden wir eine performante und einfache Methode beschreiben beschreiben, mit der es möglich ist, den Faktor $P(\textbf{E}(e) = 1 | d)$ zu berechnen.
+

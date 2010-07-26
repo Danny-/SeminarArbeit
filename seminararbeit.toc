@@ -4,8 +4,8 @@
 \contentsline {subsection}{\numberline {2.1}Plausible Annahme \IeC {\"u}ber die Verteilung von Koreferenzen}{2}
 \contentsline {subsection}{\numberline {2.2}Formalisierung}{3}
 \contentsline {subsection}{\numberline {2.3}Eliteness}{4}
-\contentsline {subsection}{\numberline {2.4}Poisson}{4}
-\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{5}
-\contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{5}
-\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{5}
-\contentsline {subsection}{\numberline {3.3}Retrieval Method}{5}
+\contentsline {subsection}{\numberline {2.4}Poisson}{5}
+\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{6}
+\contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{6}
+\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{6}
+\contentsline {subsection}{\numberline {3.3}Retrieval Method}{6}
