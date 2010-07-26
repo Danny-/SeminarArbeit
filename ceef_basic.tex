@@ -7,8 +7,11 @@ Die raw entity frequency beachtet  noch keine zusätzlichen Koreferenzen auf das
 Theoretisch sind wir nun am Ziel. Praktisch ist es aber nicht so einfach, die Häufigkeit der Koreferenzen zu bestimmen. Mit Programmen, die Koreferenzen vollständig auflösen, geht ein überdimensionaler Berechnungsaufwand einher. Zudem sind diese Programme noch nicht besonders Präzise und ordnen weniger als 70\% der Koreferenzen richtig zu.\cite{paper:Na}
 \\
 Seung-Hoon Na und Hwee Tou Ng untersuchten deswegen einen statistischen Ansatz zur Schätzung der Koreferenzen. Dafür nehmen sie folgendes an:
+\\
 \fbox{ 
 \begin{minipage}{12cm}
 	``Our key assumption is that the frequency of anaphoric expressions is distributed over named entities in a document according to the probabilities of whether the document is elite for the named entities.''\cite{paper:Na}
 \end{minipage}
 }\\
+\\
+Ausgehend von dieser Annahme wird nun ein statistisches Modell erstellt, das in der Lage ist, die Häufigkeit von Eigennamen in Dokumenten zu schätzen.

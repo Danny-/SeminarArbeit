@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -11,6 +11,12 @@ Guha, R. und A.~Garg.
 \bibitem[Modified:~21:02(2010)]{wiki:peter_chen}
 Modified:~21:02, 21 May 2010~Nineball.
 \newblock Peter chen, 2010.
+
+\bibitem[Robertson und Walker(1994)]{paper:Robertson}
+Robertson, S.~E. und S.~Walker.
+\newblock Some simple effective approximations to the 2-poisson model for
+  probabilistic weighted retrieval.
+\newblock {\em In SIGIR'94}, Seite 232--241, 1994.
 
 \bibitem[Seung-Hoon~Na(2009)]{paper:Na}
 Seung-Hoon~Na, Hwee Tou~Ng.

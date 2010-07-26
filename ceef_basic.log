@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  25 JUL 2010 10:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  26 JUL 2010 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,7 +1127,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.14 }
+l.15 }
       \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1136,7 +1136,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `paper:Na' on page  undefined on input line 14.
+LaTeX Warning: Citation `paper:Na' on page  undefined on input line 15.
 
 Missing character: There is no ] in font nullfont!
 )
@@ -1153,5 +1153,5 @@ Here is how much of TeX's memory you used:
  3387 multiletter control sequences out of 15000+50000
  4294 words of font info for 16 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 18i,8n,22p,394b,135s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,8n,22p,394b,137s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
