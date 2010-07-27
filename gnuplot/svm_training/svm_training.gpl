@@ -1,0 +1,11 @@
+set size 1, 1
+set grid
+set xrange [0:1]
+set yrange [0:1]
+set term png size 200, 100
+set xlabel "F_P"
+set ylabel "F_O" 
+set output "svm_training.png"
+
+plot "object.dat" title "Object", \
+"person.dat" title "Person"
