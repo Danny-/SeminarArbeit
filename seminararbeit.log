@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  27 JUL 2010 19:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  27 JUL 2010 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,46 +523,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--10
 [5] <pics/poisson_basic.png, id=45, 602.25pt x 401.5pt>
 File: pics/poisson_basic.png Graphic file (type png)
 
-<use pics/poisson_basic.png>) (./zs_svm.tex [6 <./pics/poisson_basic.png (PNG c
-opy)>]
+<use pics/poisson_basic.png> [6 <./pics/poisson_basic.png (PNG copy)>])
+(./zs_svm.tex [7]
 Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
 
-<pics/svm_training.png, id=50, 602.25pt x 401.5pt>
+[8] <pics/svm_training.png, id=58, 602.25pt x 401.5pt>
 File: pics/svm_training.png Graphic file (type png)
- <use pics/svm_training.png>
+
+<use pics/svm_training.png>
 Underfull \hbox (badness 10000) in paragraph at lines 12--25
 
  []
 
-[7]) (./zs_feedback.tex) (./zs_okapi.tex) [8 <./pics/svm_training.png (PNG copy
-)>] (./seminararbeit.bbl) [9] (./seminararbeit.aux) ) 
+) (./zs_feedback.tex) (./zs_okapi.tex) [9 <./pics/svm_training.png (PNG copy)>]
+(./seminararbeit.bbl) [10] (./seminararbeit.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  3167 strings out of 493848
  37315 string characters out of 1152823
- 102800 words of memory out of 3000000
+ 104801 words of memory out of 3000000
  6369 multiletter control sequences out of 15000+50000
  17062 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,13n,28p,889b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/en
-c/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfti1095.pfb>
-Output written on seminararbeit.pdf (12 pages, 292065 bytes).
+ 27i,13n,28p,889b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfti1095.pfb>
+Output written on seminararbeit.pdf (13 pages, 314991 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
