@@ -1,0 +1,15 @@
+set size 1, 1
+set xrange [0:10]
+set yrange [0:1]
+set grid
+set term png size 600, 400 
+set xlabel "k"
+set ylabel "Wahrscheinlichkeit"
+set output "poisson_basic.png"
+
+p(y,k)=y**k/(k!*exp(y))
+f(y,k)=(y**k/(k!*exp(y)))
+
+plot p(1,int(x)) title "Poisson \lambda=1" , \
+p(5, int(x)) title "Poisson \lambda=5", \
+p(10, int(x)) title "Poisson \lambda=10"
