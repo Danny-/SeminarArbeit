@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  28 JUL 2010 19:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  28 JUL 2010 19:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,22 +803,23 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-l.30 ...ese Tatsache ist in dem Orginalpaper \NgNa
-                                                  \cite{paper:Na} schön dar...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--72
+)
+Underfull \hbox (badness 10000) in paragraph at lines 29--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--72
+Underfull \hbox (badness 10000) in paragraph at lines 29--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--206
 
  []
 
@@ -826,63 +827,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--72
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \\
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 B
-      luber
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [15] (./seminararbeit.bbl) [16] (./seminararbeit.aux) ) 
+[15] [16] (./seminararbeit.bbl) [17] (./seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
  5209 strings out of 493848
  67246 string characters out of 1152823
- 173874 words of memory out of 3000000
+ 175874 words of memory out of 3000000
  8356 multiletter control sequences out of 15000+50000
  18471 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  47i,13n,61p,900b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/font
-s/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-msy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfti1095.pfb>
-Output written on seminararbeit.pdf (19 pages, 341824 bytes).
+{/usr/share/texmf/f
+onts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfti1095.pfb>
+Output written on seminararbeit.pdf (20 pages, 342412 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
