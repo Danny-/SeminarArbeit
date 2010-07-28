@@ -1,5 +1,5 @@
 \subsection{Poisson}
-Nochmal: die grundlegende Annahme von Seung-Hoon Na und Hwee Tou Ng lautet:\\
+Aufgrund ihrer Wichtigkeit, nochmal die grundlegende Annahme von Seung-Hoon Na und Hwee Tou Ng:\\
 \fbox{ 
 \begin{minipage}{12cm}
 	``Our key assumption is that the frequency of anaphoric expressions is distributed over named entities in a document according to the probabilities of whether the document is elite for the named entities.''\cite{paper:Na}
@@ -28,16 +28,16 @@ wobei
 Damit haben wir ein Modell, dass die Wahrscheinlichkeit der Häufigkeit von Entitäten in Dokumenten schätzt. Wichtig ist hierbei, dass sowohl das Auftreten von ``elite''-Entitäten in Dokumenten mit einer Poissonverteilung modelliert wird, als auch das ``zufällige'' Auftreten der ``nonelite''-Entitäten.\\
 Eine einfache Poissonverteilung sieht in Formel und im Diagramm wie folgt aus:
 \[P_\lambda(k)=\frac{\lambda^k}{k!}e^{-\lambda}\]
-\begin{table}[h]
+\begin{figure}[h]
 	\centering
 	\begin{tabular}{c}
 		\includegraphics[scale=0.5]{pics/poisson_basic}
 	\end{tabular}
 	\caption{Einfache Poissonverteilung}
 	\label{tab:poisson_basic}
-\end{table}
+\end{figure}
 
-Mit Hilfe von $(1)$ können wir nun $P(\textbf{E}(e)=1|d)$ bestimmen. Wir setzen
+Mit Hilfe von $(2)$ können wir nun $P(\textbf{E}(e)=1|d)$ bestimmen. Wir setzen
 \[ P(\textbf{E}(e)=1|d) = \frac{\pi_e P(tf(e;d)|\textbf{E}(e)=1)}{\pi_e P(tf(e;d)|\textbf{E}(e)=1) + (1-\pi_e) P(tf(e;d)|\textbf{E}(e)=0)} \]
 mit
 \begin{eqnarray*}
@@ -68,10 +68,14 @@ Jetzt werden 2 Fälle unterschieden:
 		\end{eqnarray*}
 
 	\item $e \neq e_Q$ \\
-		Auch hier machen wir zu Beginn zwei Annahmen. Zum einen seien alle non-query Entitäten vom selben Typ, wie die query Entität und zum anderen sei die Termfrequency ($tf(e;d)$) einer Top-$K$ non-query Entität gleich dem Durschnittsvorkommen einer query Entität in einem elite Dokument.\\
+		Auch hier machen wir zu Beginn zwei Annahmen:
+		\begin{enumerate}
+			\item Es seien alle non-query Entitäten vom selben Typ, wie die query Entität
+			\item Es sei die Termfrequency ($tf(e;d)$) einer Top-$K$ non-query Entität gleich dem Durschnittsvorkommen einer query Entität in einem elite Dokument
+		\end{enumerate}
 		Unter diesen Vorraussetzungen dürfen die $\lambda_e, \mu_e \text{ und } \pi_e$ wie oben gewählt werden. Dies führt uns erneut zu der Formel
 		\[ 	P(\textbf{E}(e)=1|d) = \frac{1}{1+ \left( \frac{df(e)}{N}\right)^{tf(e;d)-1}e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}}} \]
-		Aufgrund unserer 2. Annahme gilt jetzt aber, dass $tf(e;d) = \frac{cf(e)}{df(e)}$, weshalb wir in diesem Fall zu dem Ergebnis kommen, dass
+		Aufgrund von (b) gilt jetzt aber, dass $tf(e;d) = \frac{cf(e)}{df(e)}$, weshalb wir in diesem Fall zu dem Ergebnis kommen, dass
 		\[	P(\textbf{E}(e_N)=1|d) = \frac{1}{1+ \left( \frac{df(e)}{N}\right)^{\frac{cf(e)}{df(e)}-1}e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}}} \]
 \end{enumerate}
 
@@ -84,7 +88,7 @@ Wir wollen zum Schluss noch darauf aufmerksam machen, dass es sinnvoller ist, st
 \[ ntf(e;d) = \frac{tf(e;d) \cdot avglen}{len(d)} \]
 Wobei $avglen$ die Durchschnittslänge eines Dokuments im Test ist und $len(d)$ die Länge des aktuellen Dokuments.
 \end{defi}
-Die normalized Termfrequency setzt also das Vorkommen der Entitäten in Relation mit der Länge der Dokumente. Das ist wichtig, da die Termfrequency in langen Dokumenten ja meist höher ist als in kurzen, dies aber das Dokument nicht unbedingt relevanter macht.
+Die normalized Termfrequency setzt also das Vorkommen der Entitäten in Relation mit der Länge der Dokumente. Das ist wichtig, da die Termfrequency in langen Dokumenten ja meist höher ist als in Kurzen, dies aber das Dokument nicht unbedingt relevanter macht.
 Somit setzen wir also
 \[ ntf_{true}(e_Q;d) \approx ntf(e_Q;d) + P(e_Q|a,d)ntf(A;d) \]
-und sind damit fertig.
+und sind fertig.

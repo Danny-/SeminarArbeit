@@ -1,6 +1,6 @@
 \subsection{Plausible Annahme über die Verteilung von Koreferenzen}
 %PDF-Features von latex nachlesen; wir bräuchten einen link auf die Einleitung - und zwar auf die fbox
-Die Häufigkeit von Eigennamen in Dokumenten ist schwer zu erfassen. Zählt man nur die \textit{named entites} selbst, erhält man die raw entity frequency:
+Die Häufigkeit von Eigennamen in Dokumenten ist schwer zu erfassen. Zählt man nur die \textit{named entities} selbst, erhält man die raw entity frequency:
 \[tf\left( e;d \right)=\sharp \text{(named entity)}\]
 Die raw entity frequency beachtet  noch keine zusätzlichen Koreferenzen auf das Objekt hinter dem gesuchten Eigennamen. Um später ein besseres Ranking ausführen zu können, möchten wir möglichst alle Referenzen erfassen. Also addieren wir die Häufigkeit der Koreferenzen zu unserer raw entity frequency:
 \[tf\left( e;d \right)\leq tf_{true}\left( e;d \right)=tf\left( e;d \right)+\underbrace{atf(e_Q;A,d)}_{Korefernzen}\]
@@ -14,7 +14,7 @@ Seung-Hoon Na und Hwee Tou Ng untersuchten deswegen einen statistischen Ansatz z
 \end{minipage}
 }\\
 \\
-Man geht also davon aus, das sich mögliche Koreferenzen in einem Dokument auf die verschiedenen Eigennamen verteilen. Die Häufigkeit der Korelation zwischen Koreferenz und Eigennamen hängt dabei von der Wahrscheinlichkeit ab, dass sich ein Dokument um eben diesen Eigennamen dreht.\\
-Ausgehend von dieser Annahme wird nun ein statistisches Modell erstellt, das in der Lage ist, die Häufigkeit von Eigennamen in Dokumenten zu schätzen. Dazu wird der Kontext vernachlässigt und die Anzahl der anaphorischen Ausdrücke mit einem Faktor multipliziert, der die Wahrscheinlichkeit eines Bezuges auf die gesuchte Named Entity abschätzt.
+Man geht also davon aus, dass sich mögliche Koreferenzen in einem Dokument auf die verschiedenen Eigennamen verteilen. Die Häufigkeit der Korelation zwischen Koreferenz und Eigennamen hängt dabei von der Wahrscheinlichkeit ab, dass ein Dokument eben diesen Eigennamen thematisiert.\\
+Ausgehend von dieser Annahme wird nun ein statistisches Modell erstellt, das in der Lage ist, die Häufigkeit dieser Korelationen in Dokumenten zu schätzen. Dazu wird der Kontext vernachlässigt und die Anzahl der anaphorischen Ausdrücke mit einem Faktor multipliziert, der die Wahrscheinlichkeit eines Bezuges auf die gesuchte Named Entity abschätzt.
 \[ tf_{true} \left( e_Q ; d \right) \approx tf \left( e_Q ; d \right) + P\left( e_Q | A,d \right)tf\left( A;d \right) \]
 Im folgenden gilt es diesen Faktor $P\left( e_Q | A,d \right)$ zu bestimmen.
