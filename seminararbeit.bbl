@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{9}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -25,7 +25,7 @@ Modified:~21:02, 21 May 2010~Nineball.
 Robertson, S.~E. und S.~Walker.
 \newblock Some simple effective approximations to the 2-poisson model for
   probabilistic weighted retrieval.
-\newblock {\em In SIGIR'94}, Seite 232--241, 1994.
+\newblock {\em SIGIR'94}, Seite 232--241, 1994.
 
 \bibitem[Seung-Hoon~Na(2009)]{paper:Na}
 Seung-Hoon~Na, Hwee Tou~Ng.
@@ -33,5 +33,22 @@ Seung-Hoon~Na, Hwee Tou~Ng.
   improved text retrieval.
 \newblock {\em Annual ACM Conference on Research and Development in Information
   Retrieval}, 2009.
+
+\bibitem[Vogt und Cottrell(1999)]{paper:Vogt}
+Vogt, C.C. und G.W. Cottrell.
+\newblock Fusion via a linear combination of scores.
+\newblock {\em Information Retrieval}, 1\penalty0 (3):\penalty0 151--173, 1999.
+
+\bibitem[Zhai und Lafferty(2001{\natexlab{a}})]{paper:Zhai1}
+Zhai, C. und J.~Lafferty.
+\newblock Model-based feedback in the language modeling approach to information
+  retrieval.
+\newblock {\em CIKM '01}, Seite 403--410, 2001{\natexlab{a}}.
+
+\bibitem[Zhai und Lafferty(2001{\natexlab{b}})]{paper:Zhai2}
+Zhai, C. und J.~Lafferty.
+\newblock A study of smoothing methods for languale models applied to ad hoc
+  information retrieval.
+\newblock {\em SIGIR '01}, Seite 334--342, 2001{\natexlab{b}}.
 
 \end{thebibliography}

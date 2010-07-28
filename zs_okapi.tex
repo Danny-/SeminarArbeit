@@ -10,6 +10,9 @@ wobei
 $b$ und $k_1$ dienen hier der Normierung. $IDF(e_Q)$ steht für die inverse Documentfrequency und wird vom BM25-Model zur Gewichtung verwendet und wird wie folgt berechnet:
 \[ IDF(e_Q) = \log \left( \frac{N}{df(e_Q)} \right) \text{\cite{wiki:tf_idf}} \]
 
-Es ist zudem noch zu erwähnen, dass diese Methode mit anderen aktuellen und als „state-of-the-art“ geltenden retrieval methods kombinierbar ist. Dies funktioniert so, dass man sich einen Normierungfaktor $\alpha \in [0,1]$ wählt und damit die zwei Methoden ($BM25_{CEEF}$ und eine anderen state-of-the-art retrieval method $Sim_{BASE}$) entsprechend gewichtet und aufaddiert.
+Es ist zudem noch zu erwähnen, dass diese Methode mit anderen aktuellen und als „state-of-the-art“ geltenden retrieval methods kombinierbar ist.\\
+Dies funktioniert so, dass man sich einen Normierungfaktor $\alpha \in [0,1]$ wählt und damit die zwei Methoden entsprechend gewichtet und aufaddiert. Man nennt dieses Verfahren „Lineare Interpolation“ \cite{paper:Vogt}. 
 
 \[ Sim(Q;d) = (1-\alpha) \cdot Sim_{BASE}(Q;d) + \alpha \cdot BM25_{CEEF}(e_Q;d) \]
+
+Hier steht $Sim_{BASE}(Q;d)$ für ein beliebiges state-of-the-art Verfahren, zum Beispiel das Language Modeling \cite{paper:Zhai1}\cite{paper:Zhai2}.

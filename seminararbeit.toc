@@ -10,3 +10,4 @@
 \contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{12}
 \contentsline {subsection}{\numberline {3.3}Retrieval Method}{13}
 \contentsline {section}{\numberline {4}Evaluation}{14}
+\contentsline {section}{\numberline {5}Fazit}{17}

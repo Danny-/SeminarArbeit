@@ -25,7 +25,7 @@ $A_0=\left\{ \text{'it', 'its'} \right\}$.
 	\end{tabular}
 	\caption{Comparison of MAP, Pr@5, Pr@10}
 	\cite{paper:Na}
-\end{table}\\
+\end{table}
 In der ersten Tabelle sieht man die einzelnen Methoden im direkten Vergleich. Als Testmaß verwendete man MAP, die Mean Average Precision, Pr@5, die Präzision für die besten 5 Dokumente und Pr@10, die Präzision für die besten 10 Dokumente. In MAP sind alle CEEF-Modelle signifikant besser als REF.\\
 Bei Pr@5 und Pr@10 sind nur noch die CEEF-Poisson-Methoden signifikant besser als REF. Diese Tatsache ist in dem Orginalpaper \NaNg\cite{paper:Na} schön dargestellt.\\
 \begin{table}[h]
@@ -42,11 +42,11 @@ Bei Pr@5 und Pr@10 sind nur noch die CEEF-Poisson-Methoden signifikant besser al
 		B+CEEF-FB-2Poisson* & 0.5087 & 0.5106 \\
 		\bottomrule
 	\end{tabular}
-	\caption{Comparison of MAP of REF and CEEF methods combining with Language Models}
+	\caption{Comparison of MAP of REF and CEEF methods combining with Language Models \cite{paper:Zhai1}\cite{paper:Zhai2}}
 	\cite{paper:Na}
 \end{table}\\
 \\
-In der 2. Tabelle wird die Kombination der vorgestellten Methoden mit Language Modelling-Methoden getestet. Dabei ist zu sehen, dass die Mean Average Precision gewaltig gesteigert werden kann im Vergleich zu den unkombinierten Methoden.
+In der 2. Tabelle wird die Kombination der vorgestellten Methoden mit Language Modelling-Methoden \cite{paper:Zhai1}\cite{paper:Zhai2} getestet. Dabei ist zu sehen, dass die Mean Average Precision gewaltig gesteigert werden kann im Vergleich zu den unkombinierten Methoden.
 %Paper einfügen, wie wann und warum man das macht
 \begin{table}[h]
 	\centering
@@ -67,7 +67,8 @@ In der 2. Tabelle wird die Kombination der vorgestellten Methoden mit Language M
 		\end{tabular}
 		\caption{Comparison of MAP of REF and CEEF methods, combining with LMFB each query type.\cite{paper:Na}}
 \end{table}\\
-\\
+In Tabelle 3 kann man sehr schön sehen, dass das angewendete Verfahren für Personen-Queries immernoch am besten funktioniert.
+
 \begin{table}[h]
 	\centering
 	\begin{tabular}{lS[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]}
@@ -80,5 +81,4 @@ In der 2. Tabelle wird die Kombination der vorgestellten Methoden mit Language M
 	\end{tabular}
 	\caption{Comparison of MAP of TREC08BEST and others. NONE means non-combined baseline run.}
 	\cite{paper:Na}
-\end{table}\\
-\\
+\end{table}
