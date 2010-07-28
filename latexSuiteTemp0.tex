@@ -1,0 +1,87 @@
+% This template is provided for all the participants of the seminar ``Text Mining''
+%%%%%%%%%%%%%%%%%%%%%
+% Author information:
+%%%%%%%%%%%%%%%%%%%%%
+% Jannik Strötgen
+% Institute of Computer Science
+% Database Systems Research Group
+% INF 348 
+% 69120 Heidelberg
+% stroetgen@uni-hd.de
+%%%%%%%
+% Date: April 24, 2010
+%%%%%%% 
+
+\documentclass[
+     11pt,         % font size
+     a4paper,      % paper format
+     oneside,
+     ]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PACKAGES:
+
+% Use German :
+\usepackage[USenglish, ngerman]{babel}
+% Input encoding
+\usepackage[utf8]{inputenc}
+% Font encoding
+\usepackage[T1]{fontenc}
+% Einbinden von URLs:
+\usepackage{url}
+% Include Graphic-files:
+\usepackage{graphicx}
+% Include PDF links
+%\usepackage[pdftex, bookmarks=true]{hyperref}
+% Fuer Textsatz
+\usepackage{setspace}
+% For bibliography style
+\usepackage[numbers]{natbib}
+% for Latex symbols
+\usepackage{doc}
+%amsmath
+\usepackage{amsmath}
+\usepackage{amsthm}
+%booktabs
+\usepackage{booktabs}
+%SI-Einheiten
+\usepackage{siunitx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Titel, Autor, Seminar, Semester, Dozent %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\mytitle}{Coreference of Named Entities}
+\newcommand{\myauthor}{Philipp Schäfer, Daniel Kruck}
+\newcommand{\myseminar}{Text Mining}
+\newcommand{\mysemester}{Sommersemester 2010}
+\newcommand{\mydozent}{Jannik Strötgen}
+\newcommand{\mydozentTwo}{Prof. Dr. Michael Gertz}
+
+
+
+\newtheoremstyle{custm}% name of the style to be used
+  {}% measure of space to leave above the theorem. E.g.: 3pt
+  {}% measure of space to leave below the theorem. E.g.: 3pt
+  {}% name of font to use in the body of the theorem
+  {0em}% measure of space to indent
+  {\bf }% name of head font
+  {}% punctuation between head and body
+  {0.5cm}% space after theorem head; " " = normal interword space
+  {}% Manually specify head
+
+\theoremstyle{custm}
+
+\newtheorem*{thm_defi}{Definition:}
+\newenvironment{defi} [1][]{\begin{thm_defi} {\underline{\textbf{#1}}\ \\}}{\end{thm_defi} }
+
+
+% OTHER SETTINGS:
+\setlength{\parindent}{0in}
+
+% Pagestyle:
+\pagestyle{myheadings}
+\markright{\myauthor: \mytitle}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <Retrieval Method> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
