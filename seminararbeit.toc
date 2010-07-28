@@ -7,6 +7,6 @@
 \contentsline {subsection}{\numberline {2.4}Poisson}{5}
 \contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{9}
 \contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{9}
-\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{11}
-\contentsline {subsection}{\numberline {3.3}Retrieval Method}{12}
-\contentsline {section}{\numberline {4}Evaluation}{12}
+\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{12}
+\contentsline {subsection}{\numberline {3.3}Retrieval Method}{13}
+\contentsline {section}{\numberline {4}Evaluation}{13}

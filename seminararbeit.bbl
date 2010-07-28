@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -7,6 +7,11 @@
 Guha, R. und A.~Garg.
 \newblock Disambiguating people in search.
 \newblock {\em In TAP: Building the Semantic Web}, 2003.
+
+\bibitem[Hamann und Rohwetter(26.02.2009)]{paper:Zeit}
+Hamann, Götz und Marcus Rohwetter.
+\newblock Google weiß, wo du bist.
+\newblock {\em Die Zeit}, 26.02.2009.
 
 \bibitem[Modified:~21:02(2010)]{wiki:peter_chen}
 Modified:~21:02, 21 May 2010~Nineball.

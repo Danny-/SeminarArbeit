@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  28 JUL 2010 14:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  28 JUL 2010 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,74 +740,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--194
 
  []
 
-[10 <./pics/svm_training.png (PNG copy)>] (./zs_feedback.tex
+[10 <./pics/svm_training.png (PNG copy)>] [11] (./zs_feedback.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
-
-
-Package natbib Warning: Citation `paper:Zeit' on page 11 undefined on input lin
-e 20.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 20--197
+Underfull \hbox (badness 10000) in paragraph at lines 21--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--197
+Underfull \hbox (badness 10000) in paragraph at lines 21--199
 
  []
 
-[11] (./zs_okapi.tex) (./evaluation.tex) [12] [13] (./seminararbeit.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-[14] (./seminararbeit.aux) ) 
+(./zs_okapi.tex) (./evaluation.tex [12]) [13] (./seminararbeit.bbl) [14]
+(./seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 5204 strings out of 493848
- 67147 string characters out of 1152823
- 172874 words of memory out of 3000000
- 8351 multiletter control sequences out of 15000+50000
+ 5206 strings out of 493848
+ 67189 string characters out of 1152823
+ 170874 words of memory out of 3000000
+ 8353 multiletter control sequences out of 15000+50000
  18471 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  47i,13n,61p,895b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super
--t1.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl109
-5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on seminararbeit.pdf (17 pages, 328256 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.e
+nc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1095.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on seminararbeit.pdf (17 pages, 328378 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
