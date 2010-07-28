@@ -1,0 +1,80 @@
+\begin{table}
+	\centering
+	\begin{tabular}{lS[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]}
+		\toprule
+		Methods & {MAP} & {Pr@5} & {Pr@10}\\
+		\midrule
+		REF & 0.3929 & 0.6707 & 0.6616\\
+		CEEF-Thr & 0.3968 & 0.6788 & 0.6778\\
+		CEEF-2Poisson & 0.4139 & 0.7060 & 0.6940\\
+		CEEF-FB-2Poisson & 0.4165 & 0.7320 & 0.7200\\
+		CEEF-FB-2Poisson* & 0.4177 & 0.7420 & 0.7270\\
+		\bottomrule
+	\end{tabular}
+	\caption{Comparison of MAP, Pr@5, Pr@10}
+	\cite{paper:NaNg}
+\end{table}
+
+
+
+\begin{table}
+	\centering
+	\begin{tabular}{lS[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]}
+		\toprule
+		Methods & {LM} & {LMFB} \\
+		\midrule
+		B (Baseline Run) & 0.4043 & 0.4254 \\
+		B+REF & 0.4665 & 0.4868 \\
+		B+CEEF-Thr & 0.4831 & 0.4942 \\
+		B+CEEF-2Poisson & 0.4874 & 0.5000 \\
+		B+CEEF-FB-2Poisson & 0.5074 & 0.5090 \\
+		B+CEEF-FB-2Poisson* & 0.5087 & 0.5106 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Comparison of MAP of REF and CEEF methods combining with Language Models}
+	\cite{paper:NaNg}
+\end{table}
+
+
+
+
+\begin{table}
+	\centering
+		\begin{tabular}{lS[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]}
+			\toprule
+			Query Type & {REF} & {CEEF} & {CEEF-FB} & {CEEF-FB*}\\
+			\midrule
+			Person & 0.5640 & 0.5793 & 0.5761 & 0.5781\\
+			Company, etc. & 0.5061 & 0.5170 & 0.5305 & 0.5305\\
+			Product & 0.5245 & 0.5401 & 0.5680 & 0.5680\\
+			TV program, etc & 0.3664 & 0.3754 & 0.3793 & 0.3994\\
+			Organization & 0.4468 & 0.4682 & 0.4701 & 0.4701\\
+			Event, etc. & 0.5039 & 0.4987 & 0.5012 & 0.5021\\
+			Other Types & 0.4785 & 0.4889 & 0.5040 & 0.5040\\
+			Topic & 0.2754 & 0.3078 & 0.3094 & 0.3123\\
+			All & 0.4868 & 0.5000 & 0.5090 & 0.5106\\
+			\bottomrule
+		\end{tabular}
+		\caption{Comparison of MAP of REF and CEEF methods, combining with LMFB each query type.\cite{paper:NaNg}}
+\end{table}
+
+
+
+
+
+
+
+
+\begin{table}
+	\centering
+	\begin{tabular}{lS[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]S[tabnumalign=centre,tabformat=1.4,decimalsymbol=comma]}
+		\toprule
+		Query Type & {NONE} & {REF} & {CEEF} & {CEEF-FB}\\
+		\midrule
+		TREC '07 & 0.5406 & 0.5569 & 0.5646 & 0.5733\\
+		TREC '08 & 0.5032 & 0.5216 & 0.5248 & 0.5330\\
+		\bottomrule
+	\end{tabular}
+	\caption{Comparison of MAP of TREC08BEST and others. NONE means non-combined baseline run.}
+	\cite{paper:NaNg}
+\end{table}
