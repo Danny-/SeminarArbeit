@@ -2,7 +2,7 @@
 Da die Menge an Koreferenzen 
 \[A_O=\left\{\text{'it', 'its'}\right\}\]
 für Objekte nicht ausreichend ist, haben die Autoren des Papers \NaNg\cite{paper:Na} ein Verfahren entwickelt, um die Menge $A_O$ zu erweitern. Sie nennen ihren Algorithmus ``Feedback-Based Identification of Anaphoric Expressions''.\\
-Man nimmt an, dass häufige Nomen mit bestimmen Artikel in der Umgebung von Eigennamen diese referenzieren.\\
+Man nimmt an, dass häufige auftretende Nomen mit bestimmten Artikeln in der Umgebung von Eigennamen diese referenzieren.\\
 
 \fbox{ 
 \begin{minipage}{12cm}
@@ -20,3 +20,5 @@ Denn diese Informationen hat \underline{der Internetkonzern} bisher nicht, der w
 \end{minipage}
 }\\
 \\
+Wie man an dem Beispiel schön sieht, wird Google oft mit einem bestimmten Artikel plus \underline{Internetkonzern} beschrieben.\\
+Diese Nomen, die als Koreferenzen zu einem bestimmten Eigennamen auftreten können, gilt es nun zu erkennen. Dafür werden lexiko-syntaktische Muster erzeugt, um bestimmten Nomen automatisch zu extrahieren. Dann werden diejenigen Dokumente gesucht, die nach herkömmlichen Rankingmethoden am relevantesten für die Query Entity sind. Aus den relevantesten M Dokumenten werden daraufhin die bestimmten Nomen extrahiert. Zum Schluss werden die Nomen noch nach Häufigkeit sortiert. Die häufigsten M Nomen werden dann zur Menge $A_O$ hinzugefügt. Man kann zuvor noch ein Filterschritt einbauen, der diejenigen Nomen ausblendet, die in allen Dokumenten am häufigsten mit dem bestimmten Artikel auftreten. Diese sind nämlich nicht Query-spezifisch und vermutliche keine Koreferenz auf das Objekt hinter der Query Entity. 
