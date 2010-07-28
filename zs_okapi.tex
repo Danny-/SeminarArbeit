@@ -1,1 +1,15 @@
 \subsection{Retrieval Method}
+
+Um unsere Methode zu testen, müssen wir uns zunächst auf eine retrieval method bzw. Ranking Methode festlegen. Die Herren Na und Ng verwenden hierfür eine Variante des BM25-Models, welche die CEEF-Methode zur Bestimmung der Termfrequency benutzt und wie folgt definiert ist:
+\[ BM25_{CEEF}(e_Q;d) = OkapiTF(e_Q;d) \cdot IDF(e_Q) \]
+
+wobei
+
+\[ OkapiTF(e_Q;d) = \frac{ (k_1 + 1) \cdot tf_{CEEF}(e_Q;d)}{tf_{CEEF}(e_Q;d) + k_1\left( (1-b) + b \frac{len(d)}{avglen} \right)} \]
+
+$b$ und $k_1$ dienen hier der Normierung. $IDF(e_Q)$ steht für die inverse Documentfrequency und wird vom BM25-Model zur Gewichtung verwendet und wird wie folgt berechnet:
+\[ IDF(e_Q) = \log \left( \frac{N}{df(e_Q)} \right) \text{\cite{wiki:tf_idf}} \]
+
+Es ist zudem noch zu erwähnen, dass diese Methode mit anderen aktuellen und als „state-of-the-art“ geltenden retrieval methods kombinierbar ist. Dies funktioniert so, dass man sich einen Normierungfaktor $\alpha \in [0,1]$ wählt und damit die zwei Methoden ($BM25_{CEEF}$ und eine anderen state-of-the-art retrieval method $Sim_{BASE}$) entsprechend gewichtet und aufaddiert.
+
+\[ Sim(Q;d) = (1-\alpha) \cdot Sim_{BASE}(Q;d) + \alpha \cdot BM25_{CEEF}(e_Q;d) \]

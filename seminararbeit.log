@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  28 JUL 2010 15:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  28 JUL 2010 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -770,19 +770,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--199
 
  []
 
-[12] (./zs_okapi.tex) (./evaluation.tex
+[12] (./zs_okapi.tex [13]) (./evaluation.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [13] (./seminararbeit.bbl) [14] (./seminararbeit.aux) ) 
+) [14] (./seminararbeit.bbl) [15] (./seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 5206 strings out of 493848
- 67189 string characters out of 1152823
- 171874 words of memory out of 3000000
- 8353 multiletter control sequences out of 15000+50000
+ 5209 strings out of 493848
+ 67246 string characters out of 1152823
+ 170874 words of memory out of 3000000
+ 8356 multiletter control sequences out of 15000+50000
  18471 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  47i,13n,61p,895b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -802,9 +802,9 @@ er/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1095.pfb>
-Output written on seminararbeit.pdf (17 pages, 329347 bytes).
+Output written on seminararbeit.pdf (18 pages, 336969 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
