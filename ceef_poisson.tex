@@ -61,9 +61,30 @@ Jetzt werden 2 Fälle unterschieden:
 		Wir machen die plausible Annahme, dass $tf(e;d) \geq 1$, wenn das Dokument $d$ elite ist für die gesuchte Entität $e$. Alle anderen Dokumente im Test seien non-elite bezüglich $e$. \\
 		Dann können wir die $\pi_e, \lambda_e \text{ und } \mu_e$ wie oben beschrieben ersetzen und erhalten
 		\begin{eqnarray*}
-			P(\textbf{E}(e)=1|d)	&=&	\frac{\pi_e}{\pi_e + (1-\pi_e)e^{\lambda_e - \mu_e}\left( \frac{\mu_e}{\lambda_e}\right)^{tf(e;d)}}\\
+			P(\textbf{E}(e_Q)=1|d)	&=&	\frac{\pi_e}{\pi_e + (1-\pi_e)e^{\lambda_e - \mu_e}\left( \frac{\mu_e}{\lambda_e}\right)^{tf(e;d)}}\\
 			&=&	\frac{\frac{df(e)}{df(e) + N}}{\frac{df(e)}{df(e) + N} + \left(1-\frac{df(e)}{df(e) + N}\right) e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}} \left( \frac{\frac{cf(e)}{N}}{\frac{cf(e)}{df(e)}}\right)^{tf(e;d)}}\\
 %			&=&	\frac{1}{1 + \frac{e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}}\left( \frac{df(e)}{N}\right)^{tf(e;d)}}{\frac{df(e)}{df(e) + N}} - e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}}\left( \frac{df(e)}{N}\right)^{tf(e;d)} }\\
 			&=&	\frac{1}{1+ \left( \frac{df(e)}{N}\right)^{tf(e;d)-1}e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}}}
 		\end{eqnarray*}
+
+	\item $e \neq e_Q$ \\
+		Auch hier machen wir zu Beginn zwei Annahmen. Zum einen seien alle non-query Entitäten vom selben Typ, wie die query Entität und zum anderen sei die Termfrequency ($tf(e;d)$) einer Top-$K$ non-query Entität gleich dem Durschnittsvorkommen einer query Entität in einem elite Dokument.\\
+		Unter diesen Vorraussetzungen dürfen die $\lambda_e, \mu_e \text{ und } \pi_e$ wie oben gewählt werden. Dies führt uns erneut zu der Formel
+		\[ 	P(\textbf{E}(e)=1|d) = \frac{1}{1+ \left( \frac{df(e)}{N}\right)^{tf(e;d)-1}e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}}} \]
+		Aufgrund unserer 2. Annahme gilt jetzt aber, dass $tf(e;d) = \frac{cf(e)}{df(e)}$, weshalb wir in diesem Fall zu dem Ergebnis kommen, dass
+		\[	P(\textbf{E}(e_N)=1|d) = \frac{1}{1+ \left( \frac{df(e)}{N}\right)^{\frac{cf(e)}{df(e)}-1}e^{\frac{cf(e)}{df(e)}-\frac{cf(e)}{N}}} \]
 \end{enumerate}
+
+Mit diesen Ergebnissen können wir jetzt unseren Wahrscheinlichkeitsfaktor 
+\[P(e_Q | A,d) \approx \frac{P(\textbf{E}(e) = 1 | d)}{P(\textbf{E}(e) = 1 | d) + K \cdot P(\textbf{E}(e_N) = 1 | d)} \]
+abschätzen und damit die gesuchte wahre Termfrequency
+\[ tf_{true}(e_Q;d) \approx tf(e_Q;d) + P(e_Q|a,d)tf(A;d) \]
+Wir wollen zum Schluss noch darauf aufmerksam machen, dass es sinnvoller ist, statt der normalen Termfrequency, die so genannte „normalized Termfrequency“ zu verwenden.\\
+\begin{defi}[normalized Termfrequency]
+\[ ntf(e;d) = \frac{tf(e;d) \cdot avglen}{len(d)} \]
+Wobei $avglen$ die Durchschnittslänge eines Dokuments im Test ist und $len(d)$ die Länge des aktuellen Dokuments.
+\end{defi}
+Die normalized Termfrequency setzt also das Vorkommen der Entitäten in Relation mit der Länge der Dokumente. Das ist wichtig, da die Termfrequency in langen Dokumenten ja meist höher ist als in kurzen, dies aber das Dokument nicht unbedingt relevanter macht.
+Somit setzen wir also
+\[ ntf_{true}(e_Q;d) \approx ntf(e_Q;d) + P(e_Q|a,d)ntf(A;d) \]
+und sind damit fertig.

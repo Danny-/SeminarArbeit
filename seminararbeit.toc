@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {2.2}Formalisierung}{3}
 \contentsline {subsection}{\numberline {2.3}Eliteness}{4}
 \contentsline {subsection}{\numberline {2.4}Poisson}{5}
-\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{8}
-\contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{8}
-\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{10}
-\contentsline {subsection}{\numberline {3.3}Retrieval Method}{10}
+\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{9}
+\contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{9}
+\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{11}
+\contentsline {subsection}{\numberline {3.3}Retrieval Method}{11}

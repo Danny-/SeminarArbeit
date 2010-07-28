@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.4.16)  28 JUL 2010 12:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  28 JUL 2010 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,13 +523,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--10
 [5] <pics/poisson_basic.png, id=45, 602.25pt x 401.5pt>
 File: pics/poisson_basic.png Graphic file (type png)
 
-<use pics/poisson_basic.png> [6 <./pics/poisson_basic.png (PNG copy)>])
-(./zs_svm.tex [7]
+<use pics/poisson_basic.png> [6 <./pics/poisson_basic.png (PNG copy)>]
+Overfull \hbox (6.95874pt too wide) in alignment at lines 63--68
+ [][][] []
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+[8]) (./zs_svm.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
 
-[8] <pics/svm_training.png, id=58, 602.25pt x 401.5pt>
+[9] <pics/svm_training.png, id=61, 602.25pt x 401.5pt>
 File: pics/svm_training.png Graphic file (type png)
 
 <use pics/svm_training.png>)
@@ -537,12 +551,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--190
 
  []
 
-(./zs_feedback.tex [9 <./pics/svm_training.png (PNG copy)>]) (./zs_okapi.tex)
-[10] (./seminararbeit.bbl) [11] (./seminararbeit.aux) ) 
+[10 <./pics/svm_training.png (PNG copy)>] (./zs_feedback.tex) (./zs_okapi.tex)
+[11] (./seminararbeit.bbl) [12] (./seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
  3168 strings out of 493848
  37319 string characters out of 1152823
- 104800 words of memory out of 3000000
+ 104801 words of memory out of 3000000
  6370 multiletter control sequences out of 15000+50000
  17062 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -563,9 +577,9 @@ ype1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
 share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfti1095.pfb>
-Output written on seminararbeit.pdf (14 pages, 315872 bytes).
+Output written on seminararbeit.pdf (15 pages, 319769 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
