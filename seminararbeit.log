@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  28 JUL 2010 21:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.11)  30 JUL 2010 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,20 +709,24 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 ) (./ceef_eliteness.tex
-[3] [4]) (./ceef_poisson.tex
+[3] [4]) (./ceef_threshold.tex) (./ceef_poisson.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--10
 
  []
 
-[5] <pics/poisson_basic.png, id=45, 602.25pt x 401.5pt>
+[5] <pics/poisson_basic.png, id=44, 602.25pt x 401.5pt>
 File: pics/poisson_basic.png Graphic file (type png)
 
-<use pics/poisson_basic.png> [6 <./pics/poisson_basic.png (PNG copy)>]
+<use pics/poisson_basic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7 <./pics/poisson_basic.png (PNG copy)>]
 Overfull \hbox (6.95874pt too wide) in alignment at lines 63--68
  [][][] []
  []
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
@@ -732,20 +736,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[8]) (./zs_svm.tex
+) [9] (./zs_svm.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
 
-[9] <pics/svm_training.png, id=61, 602.25pt x 401.5pt>
+[10] <pics/svm_training.png, id=65, 602.25pt x 401.5pt>
 File: pics/svm_training.png Graphic file (type png)
 
 <use pics/svm_training.png>)
-Underfull \hbox (badness 10000) in paragraph at lines 12--194
+Underfull \hbox (badness 10000) in paragraph at lines 12--197
 
  []
 
-[10 <./pics/svm_training.png (PNG copy)>] [11] (./zs_feedback.tex
+[11 <./pics/svm_training.png (PNG copy)>] [12] (./zs_feedback.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
@@ -776,30 +780,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 20--199
+Underfull \hbox (badness 10000) in paragraph at lines 20--202
 
  []
 
-[12] (./zs_okapi.tex [13]) (./evaluation.tex
+[13] (./zs_okapi.tex [14]) (./evaluation.tex
 Overfull \hbox (0.29565pt too wide) in paragraph at lines 7--10
 \OML/cmm/m/it/10.95 A[] \OT1/cmr/m/n/10.95 = []$ \T1/cmr/m/n/10.95 und $\OML/cm
 m/m/it/10.95 A[] \OT1/cmr/m/n/10.95 = []$\T1/cmr/m/n/10.95 . 
  []
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 29--71
 
  []
 
-[15]) [16] (./fazit.tex
+[16]) [17] (./fazit.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--5
 
  []
 
-) [17] (./seminararbeit.bbl) [18] (./seminararbeit.aux) ) 
+) [18] (./seminararbeit.bbl) [19] (./seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 5221 strings out of 493848
- 67439 string characters out of 1152823
+ 5224 strings out of 493848
+ 67491 string characters out of 1152823
  169874 words of memory out of 3000000
  8365 multiletter control sequences out of 15000+50000
  18471 words of font info for 45 fonts, out of 3000000 for 9000
@@ -821,9 +825,9 @@ er/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1095.pfb>
-Output written on seminararbeit.pdf (21 pages, 346490 bytes).
+Output written on seminararbeit.pdf (22 pages, 348844 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

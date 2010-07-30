@@ -4,10 +4,11 @@
 \contentsline {subsection}{\numberline {2.1}Plausible Annahme \IeC {\"u}ber die Verteilung von Koreferenzen}{2}
 \contentsline {subsection}{\numberline {2.2}Formalisierung}{3}
 \contentsline {subsection}{\numberline {2.3}Eliteness}{4}
-\contentsline {subsection}{\numberline {2.4}Poisson}{5}
-\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{9}
-\contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{9}
-\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{12}
-\contentsline {subsection}{\numberline {3.3}Retrieval Method}{13}
-\contentsline {section}{\numberline {4}Evaluation}{14}
-\contentsline {section}{\numberline {5}Fazit}{17}
+\contentsline {subsection}{\numberline {2.4}Threshold Model}{5}
+\contentsline {subsection}{\numberline {2.5}2-Poisson Model}{5}
+\contentsline {section}{\numberline {3}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{10}
+\contentsline {subsection}{\numberline {3.1}Automatische Klassifizierung der named entities}{10}
+\contentsline {subsection}{\numberline {3.2}Automatische Erkennung von Koreferenzen}{13}
+\contentsline {subsection}{\numberline {3.3}Retrieval Method}{14}
+\contentsline {section}{\numberline {4}Evaluation}{15}
+\contentsline {section}{\numberline {5}Fazit}{18}

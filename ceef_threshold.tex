@@ -1,0 +1,15 @@
+\subsection{Threshold Model}
+
+Wir wollen mit einem sehr einfachen, aber leider auch recht ungenauen Verfahren beginnen, dem so genannten „Threshold Model“. Dazu wählen wir uns eine Konstante $t$ und setzen dann:
+
+\[ P(\textbf{E}(e) = 1|d) = \begin{cases}
+	1	&	\text{falls } tf(e;d) \geq t \\
+	0	&	\text{sonst}
+\end{cases} \]
+
+Wenn wir jetzt annehmen, dass das Dokument bezüglich unserer Top-$K$ elite ist (das dürfen wir annehmen, da wir ja die Konstante $t$ frei wählen können), kann der Faktor $P(e_Q|A,d)$ wie folgt bestimmt werden:
+
+\[ P(e_Q| A,d) \approx \frac{\delta (tf(e;d) \geq t)}{\delta (tf(e;d) + K} \]
+
+Unsere Wahrscheinlichkeit, dass sich ein anaphorischer Ausdruck auf unsere gesuchte Entität bezieht, ist nach diesem Modell also entweder 0 oder $\frac{1}{K + 1}$. \\
+Wir suchen also ein genaueres Modell, welches ähnlich einfache Komplexität aufweist und kommen damit zum Hauptteil unseres Papers: dem 2-Poisson Model.
