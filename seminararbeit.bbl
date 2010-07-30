@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -12,6 +12,12 @@ Guha, R. und A.~Garg.
 Hamann, Götz und Marcus Rohwetter.
 \newblock Google weiß, wo du bist.
 \newblock {\em Die Zeit}, 26.02.2009.
+
+\bibitem[Javier~Artiles(2007)]{paper:Artiles}
+Javier~Artiles, Julio~Gonzalo, Satoshi~Sekine.
+\newblock The semeval-2007 weps evaluation: Establishing a benchmark for the
+  web people search task.
+\newblock {\em In SemEval-2007}, Seite 64--69, 2007.
 
 \bibitem[Modified:~18:48(2010)]{wiki:tf_idf}
 Modified:~18:48, 23 July 2010~FarzanehSarafraz.

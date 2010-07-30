@@ -3,9 +3,10 @@ set grid
 set xrange [0:1]
 set yrange [0:1]
 set term png size 600, 400
-set xlabel "F_P"
-set ylabel "F_O" 
+set xlabel "f_P"
+set ylabel "f_O" 
 set output "svm_training.png"
 
 plot "object.dat" title "Object", \
-"person.dat" title "Person"
+"person.dat" title "Person", \
+x**2+0.08 title "Hyperebene"

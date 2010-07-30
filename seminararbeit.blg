@@ -2,44 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: seminararbeit.aux
 The style file: plainnat-d.bst
 Database file #1: seminararbeit.bib
-You've used 9 entries,
+You've used 10 entries,
             2650 wiz_defined-function locations,
-            627 strings with 5830 characters,
-and the built_in function-call counts, 3874 in all, are:
-= -- 390
-> -- 150
-< -- 12
-+ -- 57
-- -- 45
-* -- 228
-:= -- 608
-add.period$ -- 25
-call.type$ -- 9
-change.case$ -- 51
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 196
-empty$ -- 318
-format.name$ -- 66
-if$ -- 844
+            634 strings with 6014 characters,
+and the built_in function-call counts, 4332 in all, are:
+= -- 438
+> -- 160
+< -- 14
++ -- 62
+- -- 48
+* -- 251
+:= -- 676
+add.period$ -- 28
+call.type$ -- 10
+change.case$ -- 56
+chr.to.int$ -- 9
+cite$ -- 10
+duplicate$ -- 223
+empty$ -- 358
+format.name$ -- 70
+if$ -- 949
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 7
-newline$ -- 49
-num.names$ -- 36
-pop$ -- 95
+missing$ -- 8
+newline$ -- 54
+num.names$ -- 40
+pop$ -- 104
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 46
 quote$ -- 0
-skip$ -- 177
+skip$ -- 201
 stack$ -- 0
-substring$ -- 161
-swap$ -- 38
-text.length$ -- 3
+substring$ -- 188
+swap$ -- 46
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 99
+type$ -- 110
 warning$ -- 0
-while$ -- 34
+while$ -- 39
 width$ -- 0
-write$ -- 113
+write$ -- 126
