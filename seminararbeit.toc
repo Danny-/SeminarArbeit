@@ -4,15 +4,15 @@
 \contentsline {subsection}{\numberline {2.1}Eigennamen}{2}
 \contentsline {subsection}{\numberline {2.2}Koreferenzen}{2}
 \contentsline {subsection}{\numberline {2.3}Arbeiten zu diesem Thema}{2}
-\contentsline {section}{\numberline {3}Co-referentially Enhanced Entity Frequency (CEEF)}{2}
-\contentsline {subsection}{\numberline {3.1}Plausible Annahme \IeC {\"u}ber die Verteilung von Koreferenzen}{2}
-\contentsline {subsection}{\numberline {3.2}Formalisierung}{3}
-\contentsline {subsection}{\numberline {3.3}Eliteness}{4}
-\contentsline {subsection}{\numberline {3.4}Threshold Model}{5}
-\contentsline {subsection}{\numberline {3.5}2-Poisson Model}{6}
-\contentsline {section}{\numberline {4}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{10}
-\contentsline {subsection}{\numberline {4.1}Automatische Klassifizierung der named entities}{10}
-\contentsline {subsection}{\numberline {4.2}Automatische Erkennung von Koreferenzen}{13}
-\contentsline {subsection}{\numberline {4.3}Retrieval Method}{14}
-\contentsline {section}{\numberline {5}Evaluation}{15}
-\contentsline {section}{\numberline {6}Fazit}{18}
+\contentsline {section}{\numberline {3}Co-referentially Enhanced Entity Frequency (CEEF)}{3}
+\contentsline {subsection}{\numberline {3.1}Plausible Annahme \IeC {\"u}ber die Verteilung von Koreferenzen}{3}
+\contentsline {subsection}{\numberline {3.2}Formalisierung}{4}
+\contentsline {subsection}{\numberline {3.3}Eliteness}{5}
+\contentsline {subsection}{\numberline {3.4}Threshold Model}{6}
+\contentsline {subsection}{\numberline {3.5}2-Poisson Model}{7}
+\contentsline {section}{\numberline {4}Zus\IeC {\"a}tzliche Bearbeitungsschritte}{11}
+\contentsline {subsection}{\numberline {4.1}Automatische Klassifizierung der named entities}{11}
+\contentsline {subsection}{\numberline {4.2}Automatische Erkennung von Koreferenzen}{14}
+\contentsline {subsection}{\numberline {4.3}Retrieval Method}{15}
+\contentsline {section}{\numberline {5}Evaluation}{16}
+\contentsline {section}{\numberline {6}Fazit}{19}

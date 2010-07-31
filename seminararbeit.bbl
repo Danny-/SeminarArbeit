@@ -1,7 +1,14 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
+
+\bibitem[A.~Pirkola(1996)]{paper:Pirkola}
+A.~Pirkola, K.~Järvelin.
+\newblock The effect of anaphor and ellipsis resolution on proximity searching
+  in a text database.
+\newblock {\em Information Processing \& Management}, 32\penalty0 (2):\penalty0
+  199--216, 1996.
 
 \bibitem[Guha und Garg(2003)]{paper:Guha}
 Guha, R. und A.~Garg.
@@ -19,6 +26,17 @@ Javier~Artiles, Julio~Gonzalo, Satoshi~Sekine.
   web people search task.
 \newblock {\em In SemEval-2007}, Seite 64--69, 2007.
 
+\bibitem[Liddy(1990)]{paper:Liddy}
+Liddy, E.~D.
+\newblock Anaphora in natural language processing and information retrieval.
+\newblock {\em Information \& Management}, 26\penalty0 (1):\penalty0 39--52,
+  1990.
+
+\bibitem[M.~Braschler(2002)]{paper:Braschler}
+M.~Braschler, C.~Peters.
+\newblock Clef 2002 methodology and metrics.
+\newblock {\em CLEF-2002 (LNCS 2785)}, Seite 512--528, 2002.
+
 \bibitem[Modified:~18:48(2010)]{wiki:tf_idf}
 Modified:~18:48, 23 July 2010~FarzanehSarafraz.
 \newblock tf-idf, 2010.
@@ -26,6 +44,12 @@ Modified:~18:48, 23 July 2010~FarzanehSarafraz.
 \bibitem[Modified:~21:02(2010)]{wiki:peter_chen}
 Modified:~21:02, 21 May 2010~Nineball.
 \newblock Peter chen, 2010.
+
+\bibitem[R.~J.~Edens und Lam-Adesina(2003)]{paper:Edens}
+R.~J.~Edens, H. L.~Gaylard, G. J. F.~Jones und A.~M. Lam-Adesina.
+\newblock An investigation of broad coverage automatic profoun resolution for
+  information retrieval.
+\newblock {\em SIGIR '03}, Seite 381--382, 2003.
 
 \bibitem[Robertson und Walker(1994)]{paper:Robertson}
 Robertson, S.~E. und S.~Walker.
